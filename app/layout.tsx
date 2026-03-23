@@ -13,7 +13,7 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
-const SITE_URL = "https://moodpalette.co"
+const SITE_URL = "https://moodpalette.ssdown.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

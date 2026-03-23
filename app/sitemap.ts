@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next"
 
-const SITE_URL = "https://moodpalette.co"
+const SITE_URL = "https://moodpalette.ssdown.app"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

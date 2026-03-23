@@ -1,4 +1,4 @@
-const SITE_URL = "https://moodpalette.co"
+const SITE_URL = "https://moodpalette.ssdown.app"
 
 export function JsonLd() {
   const webApp = {
