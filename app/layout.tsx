@@ -1,5 +1,6 @@
 import { Geist_Mono, Inter } from "next/font/google"
 import type { Metadata } from "next"
+import Script from "next/script"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -115,6 +116,42 @@ export default function RootLayout({
     >
       <head>
         <JsonLd />
+        {/* Google Analytics */}
+        <Script
+          id="google-tag-manager"
+          strategy="afterInteractive"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-742J9X4BM5"
+        />
+        <Script
+          id="google-tag-manager-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-742J9X4BM5', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
+        {/* Naver Analytics */}
+        <Script
+          strategy="beforeInteractive"
+          id="naver-analytics"
+          src="//wcs.naver.net/wcslog.js"
+        />
+        <Script
+          strategy="beforeInteractive"
+          id="naver-analytics-init"
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html:
+              'if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "159353d1b5eedb0"; if(window.wcs) {wcs_do();}',
+          }}
+        />
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
