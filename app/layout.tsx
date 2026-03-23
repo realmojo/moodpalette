@@ -92,8 +92,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    "naver-site-verification": "",
-    "google-site-verification": "",
+    "naver-site-verification": "fa6e18349d73f00c2f4139d3426467ef83d481e9",
+    "google-site-verification": "3qAk5QTh8tZUZ3EDxxSgtAgWwcwMFnKGgNaknyWLcZM",
   },
 }
 
