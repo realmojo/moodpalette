@@ -6,6 +6,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { JsonLd } from "@/components/json-ld"
+import { AdsenseInit } from "@/components/AdsenseInit"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -107,6 +108,7 @@ export const metadata: Metadata = {
   other: {
     "naver-site-verification": "e0079fa254873f8d3b860dcec444417fabd9ab29",
     "google-site-verification": "3qAk5QTh8tZUZ3EDxxSgtAgWwcwMFnKGgNaknyWLcZM",
+    "google-adsense-account": "ca-pub-9130836798889522",
   },
 }
 
@@ -128,6 +130,7 @@ export default function RootLayout({
     >
       <head>
         <JsonLd />
+        <AdsenseInit />
         {/* Google Analytics */}
         <Script
           id="google-tag-manager"
