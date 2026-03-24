@@ -21,18 +21,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/blog/how-to-extract-colors-from-image`,
+          ko: `${SITE_URL}/blog/how-to-extract-colors-from-image`,
+        },
+      },
     },
     {
       url: `${SITE_URL}/blog/color-palette-for-branding`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/blog/color-palette-for-branding`,
+          ko: `${SITE_URL}/blog/color-palette-for-branding`,
+        },
+      },
     },
     {
       url: `${SITE_URL}/blog/color-theory-for-designers`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/blog/color-theory-for-designers`,
+          ko: `${SITE_URL}/blog/color-theory-for-designers`,
+        },
+      },
     },
   ]
 }

@@ -2,17 +2,21 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "How to Extract Colors from an Image | 이미지에서 색상 추출하는 방법",
+  title: "이미지에서 색상 추출하는 방법 | 무드팔레트 가이드 | How to Extract Colors from an Image",
   description:
-    "Learn how to extract a color palette from any image using Mood Palette. Step-by-step guide with tips for designers. 이미지에서 컬러 팔레트를 추출하는 방법을 단계별로 알아보세요.",
+    "무드팔레트로 이미지에서 컬러 팔레트를 추출하는 방법을 단계별로 알아보세요. 디자이너를 위한 색상 추출 팁 포함. Learn how to extract a color palette from any image using Mood Palette.",
   keywords: [
+    "무드팔레트",
+    "이미지 색상 추출 방법",
+    "사진에서 색상 뽑기",
+    "이미지 컬러 팔레트 추출",
+    "색상 추출 사이트",
+    "이미지 색상 분석",
+    "사진 컬러 추출",
     "extract colors from image",
     "color palette from photo",
     "how to get colors from image",
     "image color extraction",
-    "이미지 색상 추출 방법",
-    "사진에서 색상 뽑기",
-    "이미지 컬러 팔레트 추출",
   ],
   alternates: {
     canonical: "https://moodpalette.ssdown.app/blog/how-to-extract-colors-from-image",

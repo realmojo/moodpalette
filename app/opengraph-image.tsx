@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og"
 
 export const runtime = "edge"
-export const alt = "Mood Palette - Image Color Palette Extractor"
+export const alt = "무드팔레트 - 이미지 컬러 팔레트 추출기 | Mood Palette"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -63,6 +63,17 @@ export default async function Image() {
             style={{
               fontSize: 28,
               color: "#888",
+              maxWidth: 700,
+              textAlign: "center",
+              lineHeight: 1.4,
+            }}
+          >
+            이미지에서 컬러 팔레트를 추출하세요
+          </div>
+          <div
+            style={{
+              fontSize: 20,
+              color: "#aaa",
               maxWidth: 700,
               textAlign: "center",
               lineHeight: 1.4,

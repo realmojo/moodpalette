@@ -19,12 +19,30 @@ const SITE_URL = "https://moodpalette.ssdown.app"
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Mood Palette - Image Color Palette Extractor | 이미지 컬러 팔레트 추출기",
-    template: "%s | Mood Palette",
+    default:
+      "무드팔레트 (Mood Palette) - 이미지 컬러 팔레트 추출기 | Image Color Palette Extractor",
+    template: "%s | 무드팔레트 Mood Palette",
   },
   description:
-    "Extract dominant colors from any image with AI-powered color palette extraction. Upload your image and discover up to 20 distinct colors instantly. 이미지에서 최대 20가지 색상을 자동으로 추출하세요.",
+    "무드팔레트 - 이미지에서 최대 20가지 색상을 AI로 자동 추출하는 무료 온라인 컬러 팔레트 도구입니다. 사진을 업로드하면 HEX, RGB 값을 즉시 확인할 수 있습니다. Extract dominant colors from any image with AI-powered color palette extraction.",
   keywords: [
+    "무드팔레트",
+    "무드 팔레트",
+    "moodpalette",
+    "mood palette",
+    "이미지 색상 추출",
+    "컬러 팔레트 추출기",
+    "이미지 컬러 추출",
+    "사진 색상 추출",
+    "색상 추출 사이트",
+    "이미지 컬러 팔레트",
+    "이미지 컬러 피커",
+    "색상 분석 도구",
+    "컬러 팔레트 생성기",
+    "이미지 색상 분석",
+    "무료 컬러 팔레트",
+    "AI 색상 추출",
+    "디자인 도구",
     "color palette extractor",
     "image color picker",
     "color extraction tool",
@@ -33,18 +51,10 @@ export const metadata: Metadata = {
     "image color analysis",
     "design tool",
     "color palette generator",
-    "이미지 색상 추출",
-    "컬러 팔레트 추출기",
-    "이미지 컬러 피커",
-    "색상 분석 도구",
-    "컬러 팔레트 생성기",
-    "디자인 도구",
-    "이미지 색상 분석",
-    "무드 팔레트",
   ],
-  authors: [{ name: "Mood Palette" }],
-  creator: "Mood Palette",
-  publisher: "Mood Palette",
+  authors: [{ name: "무드팔레트 Mood Palette" }],
+  creator: "무드팔레트 Mood Palette",
+  publisher: "무드팔레트 Mood Palette",
   formatDetection: {
     email: false,
     telephone: false,
@@ -58,27 +68,29 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    alternateLocale: "ko_KR",
+    locale: "ko_KR",
+    alternateLocale: "en_US",
     url: SITE_URL,
-    siteName: "Mood Palette",
-    title: "Mood Palette - Extract Colors That Match Your Image's Vibe",
+    siteName: "무드팔레트 Mood Palette",
+    title:
+      "무드팔레트 - 이미지에서 컬러 팔레트 추출 | Mood Palette",
     description:
-      "Upload any image and extract up to 20 dominant colors instantly. Drag interactive color pickers to sample colors from specific areas. Free, fast, and no sign-up required.",
+      "무드팔레트로 이미지에서 최대 20가지 색상을 즉시 추출하세요. AI 기반 컬러 팔레트 추출기, 무료로 HEX/RGB 값 확인. Upload any image and extract dominant colors instantly.",
     images: [
       {
         url: `${SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Mood Palette - Image Color Palette Extractor",
+        alt: "무드팔레트 - 이미지 컬러 팔레트 추출기 | Mood Palette",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mood Palette - Extract Colors That Match Your Image's Vibe",
+    title:
+      "무드팔레트 - 이미지에서 컬러 팔레트 추출 | Mood Palette",
     description:
-      "Upload any image and extract up to 20 dominant colors instantly. Free, fast, and no sign-up required.",
+      "무드팔레트로 이미지에서 최대 20가지 색상을 즉시 추출하세요. AI 컬러 팔레트 추출기, 무료 사용. Extract dominant colors from any image instantly.",
     images: [`${SITE_URL}/og-image.png`],
   },
   robots: {

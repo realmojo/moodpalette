@@ -3,18 +3,21 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "How to Create a Brand Color Palette from Images | 이미지로 브랜드 컬러 팔레트 만들기",
+    "이미지로 브랜드 컬러 팔레트 만들기 | 무드팔레트 가이드 | Brand Color Palette",
   description:
-    "Learn how to create a professional brand color palette by extracting colors from inspiration images. 영감 이미지에서 색상을 추출하여 전문적인 브랜드 컬러 팔레트를 만드는 방법을 알아보세요.",
+    "무드팔레트로 영감 이미지에서 색상을 추출하여 전문적인 브랜드 컬러 팔레트를 만드는 방법을 알아보세요. Learn how to create a professional brand color palette by extracting colors from images.",
   keywords: [
-    "brand color palette",
-    "brand identity colors",
-    "create brand palette",
-    "color scheme from image",
+    "무드팔레트",
     "브랜드 컬러 팔레트",
     "브랜드 아이덴티티 색상",
     "브랜드 색상 만들기",
     "이미지로 색상 추출",
+    "브랜드 디자인 색상",
+    "컬러 팔레트 만들기",
+    "brand color palette",
+    "brand identity colors",
+    "create brand palette",
+    "color scheme from image",
   ],
   alternates: {
     canonical:

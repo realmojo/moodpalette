@@ -3,20 +3,23 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Color Theory for Designers: A Practical Guide | 디자이너를 위한 색채 이론 가이드",
+    "디자이너를 위한 색채 이론 가이드 | 무드팔레트 | Color Theory for Designers",
   description:
-    "Understand color theory fundamentals and learn how to apply them in your design projects. 색채 이론의 기본을 이해하고 디자인 프로젝트에 적용하는 방법을 알아보세요.",
+    "색채 이론의 기본을 이해하고 디자인 프로젝트에 적용하는 방법을 알아보세요. 무드팔레트와 함께하는 실용 색상 가이드. Understand color theory fundamentals for your design projects.",
   keywords: [
-    "color theory",
-    "color wheel",
-    "complementary colors",
-    "color harmony",
-    "design color guide",
+    "무드팔레트",
     "색채 이론",
     "색상환",
     "보색",
     "색상 조화",
     "디자인 색상 가이드",
+    "색상 이론 기초",
+    "컬러 팔레트 이론",
+    "color theory",
+    "color wheel",
+    "complementary colors",
+    "color harmony",
+    "design color guide",
   ],
   alternates: {
     canonical:
